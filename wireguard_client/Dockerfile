@@ -35,7 +35,7 @@ LABEL \
     org.opencontainers.image.authors="PrivateRouter LLC <https://github.com/PrivateRouter-LLC>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://github.com/PrivateRouter-LLC/addon-wireguard-client" \
+    org.opencontainers.image.source="https://github.com/privateRouter-llc/addon-wireguard-client" \
     org.opencontainers.image.documentation="https://github.com/PrivateRouter-LLC/addon-wireguard-client/blob/master/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
