@@ -1,9 +1,9 @@
 ---
-name: WireGuard Client
+name: TorGuard WireGuard Client
 version: 0.2.2
 slug: wireguard_client
-description: Fast, modern, secure Wireguard tunnel (client)
-url: https://github.com/bigmoby/addon-wireguard-client
+description: Fast, modern, secure Wireguard tunnel (TorGuard client)
+url: https://github.com/PrivateRouter-LLC/addon-wireguard-client
 arch:
   - aarch64
   - amd64
@@ -35,7 +35,7 @@ options:
   peers:
     - public_key: ""
       pre_shared_key: ""
-      endpoint: "xxxxxx.duckdns.com:51820"
+      endpoint: "12.34.56.78"
       allowed_ips: [ "10.6.0.0/24" ]
       persistent_keep_alive: "25"
 schema:
@@ -55,4 +55,4 @@ schema:
       allowed_ips:
         - str
       persistent_keep_alive: int
-image: "bigmoby/{arch}-addon-wireguard-client"
+image: "PrivateRouter-LLC/{arch}-addon-wireguard-client"
