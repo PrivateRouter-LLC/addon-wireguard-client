@@ -55,4 +55,4 @@ schema:
       allowed_ips:
         - str
       persistent_keep_alive: int
-image: "PrivateRouter-LLC/{arch}-addon-wireguard-client"
+image: "privaterouter-llc/{arch}-addon-wireguard-client"
