@@ -1,0 +1,14 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: TorGuard WireGuard Client
+# Runs WireGuard
+# ==============================================================================
+declare interface
+
+bashio::log.info "Stop TorGuard WireGuard Client container..."
+
+# Get the interface
+interface="wg0"
+
+# Run TorGuard  WireGuard
+exec wg-quick down "${interface}"
